@@ -10,6 +10,7 @@
     
     <preference name="orientation"                value="portrait" />       <!-- all: default means both landscape and portrait are enabled -->
     <preference name="phonegap-version" value="cli-6.3.0" />
+    <preference name="loadUrlTimeoutValue" value="700000" />
     
     <gap:plugin name="org.apache.cordova.device" />
     <gap:plugin name="org.apache.cordova.camera" />
