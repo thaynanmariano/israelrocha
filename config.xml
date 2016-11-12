@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="br.com.condominioesperto.app" version="1.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="br.com.condominioesperto.app" version="1.0.6" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     
     <name>Condomínio Esperto</name>
     <description>Trabalha para facilitar o convívio de forma correta entre os moradores.</description>
@@ -10,6 +10,7 @@
     
     <preference name="orientation"                value="portrait" />       <!-- all: default means both landscape and portrait are enabled -->
     <preference name="phonegap-version" value="cli-6.3.0" />
+    
     <!--<preference name="loadUrlTimeoutValue" value="700000" />-->
     <preference name="loadUrlTimeoutValue" value="99999999999" />
     
@@ -27,17 +28,17 @@
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="com.simplec.plugins.localnotification" />
 
-	<icon src="Icon.png" />
+	<icon src="icon.png" />
 	
     <icon src="res/icons/ios/Icon.png" gap:platform="ios" width="57" height="57" />
     <icon src="res/icons/ios/Icon@2x.png" gap:platform="ios" width="114" height="114" />    
     <icon src="res/icons/ios/Icon-72.png" gap:platform="ios" width="72" height="72" />
     <icon src="res/icons/ios/Icon-72@2x.png" gap:platform="ios" width="144" height="144" />
 
-    <icon src="res/icons/android/drawable-ldpi/Icon.png" platform="android" density="ldpi" />
-    <icon src="res/icons/android/drawable-mdpi/Icon.png" platform="android" density="mdpi" />
-    <icon src="res/icons/android/drawable-hdpi/Icon.png" platform="android" density="hdpi" />
-    <icon src="res/icons/android/drawable-xdpi/Icon.png" platform="android" density="xhdpi" />
+    <icon src="res/icons/android/icon-ldpi-36.png" gap:platform="android" gap:density="ldpi" gap:role="default" />
+    <icon src="res/icons/android/icon-mdpi-48.png" gap:platform="android" gap:density="mdpi" gap:role="default" />
+    <icon src="res/icons/android/icon-hdpi-72.png" gap:platform="android" gap:density="hdpi" gap:role="default" />
+    <icon src="res/icons/android/icon-xhdpi-96.png" gap:platform="android" gap:density="xhdpi" gap:role="default" />
 	
     <gap:splash src="splash.png" />
     
