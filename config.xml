@@ -29,21 +29,21 @@
     <gap:plugin name="org.apache.cordova.network-information" />
     -->
     
-    <plugin name=“cordova-plugin-device” source=“npm” />
-    <plugin name=“cordova-plugin-camera” source=“npm” />
-    <plugin name=“cordova-plugin-media” source=“npm” />
-    <plugin name=“cordova-plugin-file” source=“npm” />
-    <plugin name=“cordova-plugin-file-transfer” source=“npm” />
-    <plugin name=“cordova-plugin-splashscreen” source=“npm” />
-    <plugin name=“cordova-plugin-contacts” source=“npm” />
-    <plugin name=“cordova-plugin-geolocation” source=“npm” />
-    <plugin name=“cordova-plugin-inappbrowser” source=“npm” />
-    <plugin name=“cordova-plugin-dialogs” source=“npm” />
-    <plugin name=“cordova-plugin-vibration” source=“npm” />
-    <plugin name=“cordova-plugin-network-information ” source=“npm” />
+    <plugin name="cordova-plugin-device" source="npm" />
+    <plugin name="cordova-plugin-camera" source="npm" />
+    <plugin name="cordova-plugin-media" source="npm" />
+    <plugin name="cordova-plugin-file" source="npm" />
+    <plugin name="cordova-plugin-file-transfer" source="npm" />
+    <plugin name="cordova-plugin-splashscreen" source="npm" />
+    <plugin name="cordova-plugin-contacts" source="npm" />
+    <plugin name="cordova-plugin-geolocation" source="npm" />
+    <plugin name="cordova-plugin-inappbrowser" source="npm" />
+    <plugin name="cordova-plugin-dialogs" source="npm" />
+    <plugin name="cordova-plugin-vibration" source="npm" />
+    <plugin name="cordova-plugin-network-information" source="npm" />
     
     <!--<gap:plugin name="com.simplec.plugins.localnotification" />-->
-    <plugin name=“de.appplant.cordova.plugin.local-notification” source=“npm” />
+    <plugin name="de.appplant.cordova.plugin.local-notification" source="npm" />
 
 	<icon src="icon.png" />
 	
