@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="br.com.condominioesperto.app" version="1.2.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="br.com.condominioesperto.app" version="1.2.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     
     <name>Condomínio Esperto</name>
     <description>Trabalha para facilitar o convívio de forma correta entre os moradores.</description>
@@ -44,6 +44,12 @@
     
     <!--<gap:plugin name="com.simplec.plugins.localnotification" />-->
     <plugin name="de.appplant.cordova.plugin.local-notification" source="npm" />
+    
+    <platform name="ios">
+		<config-file parent="NSPhotoLibraryUsageDescription" platform="ios" target="*-Info.plist">
+		    <string>User would like to send a photo.</string>
+		</config-file>
+	</platform>
 
 	<icon src="icon.png" />
 	
