@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="br.com.condominioesperto.app" version="1.2.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="br.com.israelrochasc.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     
-    <name>Condomínio Esperto</name>
-    <description>Trabalha para facilitar o convívio de forma correta entre os moradores.</description>
+    <name>Israel Rocha</name>
+    <description>Participar. Engajar. Transformar.</description>
     <author email="thaynan@ideialabs.com.br" href="http://www.ideialabs.com.br">Thaynan Mariano</author>
 
     <preference name="phonegap-version" value="3.3.0" />
     <feature name="http://api.phonegap.com/1.0/device" />
     
     <preference name="orientation"                value="portrait" />       <!-- all: default means both landscape and portrait are enabled -->
-    <preference name="phonegap-version" value="cli-6.3.0" />
+    <preference name="phonegap-version" value="cli-6.5.0" />
     
     <!--<preference name="loadUrlTimeoutValue" value="700000" />-->
     <preference name="loadUrlTimeoutValue" value="99999999999" />
@@ -73,6 +73,6 @@
 	<allow-intent href="*" />
 	<access origin="*" /> <!-- Required for iOS9 -->
 
-    <content src="http://www.condominioesperto.com.br/index.php" />
+    <content src="http://www.israelrochasc.com.br/index.php" />
     <access origin="*" subdomains="true" />
 </widget>
