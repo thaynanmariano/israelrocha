@@ -14,7 +14,9 @@
     <!--<preference name="loadUrlTimeoutValue" value="700000" />-->
     <preference name="loadUrlTimeoutValue" value="99999999999" />
     
-    <preference name="android-minSdkVersion" value="15">
+    <platform name="android">
+	    <preference name="android-minSdkVersion" value="14" />
+    </platform>
     
     <!--
     <gap:plugin name="org.apache.cordova.device" />   
