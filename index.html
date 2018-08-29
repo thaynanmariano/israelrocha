@@ -10,13 +10,38 @@
   </head>
   <body>
 
-    <header class="bar bar-nav">
-      <h1 class="title">Israel Rocha</h1>
-    </header>
-
-	<p style="margin: auto; height: 50px; width: 100%; text-align: center">Loading....</p>
+	<p style="margin: auto; height: 50px; width: 100%; text-align: center"><br /><br /><br /><img src="irlogo.png" /></p>
+ 
+  	<p style="margin: auto; height: 50px; width: 100%; text-align: center"><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><a style="border: none; background: #711282; border-radius: 30px; padding: 8px 30px; color: #fff; font-size: 14px; transition: all 0.3s;" href="http://www.israelrochasc.com.br/">Entrar</a></p>
   	
-  	<script src="phonegap.js"></script>
+  	<p style="color: #711282; font-style: italic; margin: auto; height: 50px; width: 100%; text-align: center;"><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />Mantenha contato diário comigo através do meu aplicativo. É a maneira mais fácil de acompanhar minhas ações.</p>
+  	
+  	<script type="text/javascript">
+	  	
+  	// Add to index.js or the first page that loads with your app.
+  	// For Intel XDK and please add this to your app.js.
 
+  	document.addEventListener('deviceready', function () {
+  	// Enable to debug issues.
+  	// window.plugins.OneSignal.setLogLevel({logLevel: 4, visualLevel: 4});
+  
+	  	var notificationOpenedCallback = function(jsonData) {
+    		console.log('notificationOpenedCallback: ' + JSON.stringify(jsonData));
+		};
+
+		window.plugins.OneSignal
+		.startInit("28a36575-8434-4870-ae7e-c6f8511184b74")
+		.handleNotificationOpened(notificationOpenedCallback)
+		.endInit();
+  
+		// Call syncHashedEmail anywhere in your app if you have the user's email.
+		// This improves the effectiveness of OneSignal's "best-time" notification scheduling feature.
+		// window.plugins.OneSignal.syncHashedEmail(userEmail);
+	}, false);
+	      	
+  	</script>
+  	
+  	<script type="text/javascript" src="phonegap.js"></script>
+  	
   </body>
 </html>
